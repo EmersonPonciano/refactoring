@@ -4,7 +4,7 @@ public class TextStatement extends Statement {
 
     @Override
     public String statement(Enumeration<Rental> rentals, Customer customer) {
-        String result = "Rental Record for " + customer.getName() + "\n"
+        String result = "Rental Record for " + customer.getName() + "\n";
 
         while (rentals.hasMoreElements()) {
             Rental each = (Rental) rentals.nextElement();
