@@ -6,7 +6,7 @@ public class Rental {
 
         public Rental(Movie movie, int daysRented) {
             _movie = movie;
-            _daysRented = daysRented;
+            _daysRented = daysRented
         }
 
         public int getDaysRented() {
