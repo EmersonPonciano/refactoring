@@ -4,7 +4,7 @@ public class HtmlStatement extends Statement {
 
     @Override
     public String statement(Enumeration<Rental> rentals, Customer customer) {
-        String result = "<H1>Rentals for <EM>" + customer.getName() + "</EM></H1><P>\n";
+        String result = "<H1>Rentals for <EM>" + customer.getName() + "</EM></H1><P>\n"
 
         while (rentals.hasMoreElements()) {
             Rental each = (Rental) rentals.nextElement();
