@@ -20,7 +20,7 @@ public class Movie {
     public void setPriceCode(int arg) {
         switch (arg) {
             case REGULAR:
-                _price = new RegularPrice();
+                _price = new RegularPrice()
                 break;
             case CHILDRENS:
                 _price = new ChildrensPrice();
